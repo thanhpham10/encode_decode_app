@@ -15,7 +15,7 @@ def bt_click():
     try :
         ids = int(ids)
         
-        if user == lst.username[ids] and pwd in lst.password[ids]:
+        if user == lst.username[ids] and pwd == lst.password[ids]:
             showinfo("info", "login complete")
             window.destroy()
             import menu
@@ -23,7 +23,7 @@ def bt_click():
             showerror("error", "login failed")
             showerror("error", "password or username is wrong")
     except Exception as bug:
-        print(bug)
+        # print(bug)
         showerror("error", "id must be number (0 -> 9)")
 
 Label(text="ID",font="arial 30 bold").pack()
