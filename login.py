@@ -6,6 +6,7 @@ window = Tk()
 window.geometry("600x300+0+200")
 window.title("app build by Thanh")
 window.iconbitmap("icon.ico")
+win.resizable(False, False)
 
 def bt_click():
     ids = et.get()
