@@ -11,6 +11,6 @@ cd encode_decode_app
 python main.py
 ```
 
-### __do not run software with python 2.x__
+### __do not run this software with python 2.x__
 
 
