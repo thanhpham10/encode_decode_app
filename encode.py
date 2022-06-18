@@ -8,7 +8,7 @@ window = Tk()
 window.geometry("600x300+300+200")
 window.title("app build by Thanh")
 window.iconbitmap("icon.ico")
-win.resizable(False, False)
+window.resizable(False, False)
 
 def bt_click():
     text = ety.get()
