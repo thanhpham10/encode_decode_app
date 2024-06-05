@@ -14,5 +14,6 @@ python main.py
 ```
 
 ### __do not run this software with python 2.x__
+## App duoc tao boi thanh pham - No copyright
 
 
